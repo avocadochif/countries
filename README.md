@@ -39,6 +39,45 @@ CountriesProvider.getCountries()
 country.getCountryNameStringResId(<use_context_here>)
 ```
 
+## Languages & Locales
+Library is ready to use with different locales. It use information from this [repository](https://github.com/stefangabos/world_countries) for translation. We support next `locales` and `languages`:
+
+| Syntax      | Description |
+| :---------- | :---------- |
+| ar | Arabic |
+| bg | Bulgarian |
+| cs | Czech |
+| da | Danish |
+| de | German |
+| el | Greek |
+| eo | Esperanto |
+| es | Spanish |
+| et | Estonian |
+| eu | Basque |
+| fi | Finnish |
+| fr | French |
+| hr | Croatian |
+| hu | Hungarian |
+| hy | Armenian |
+| it | Italian |
+| ja | Japanese |
+| ko | Korean |
+| lt | Lithuanian |
+| nl | Dutch |
+| no | Norwegian |
+| pl | Polish |
+| pt | Portuguese |
+| ro | Romanian |
+| ru | russian |
+| sk | Slovak |
+| sl | Slovenian |
+| sr | Serbian |
+| sv | Swedish |
+| th | Thai |
+| uk | Ukrainian |
+| zh | Chinese |
+| zh-tw | Traditional Chinese |
+
 ## License
 
 ```MIT License
