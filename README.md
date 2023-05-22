@@ -12,8 +12,6 @@
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
-        mavenCentral()
         maven { url "https://jitpack.io" }
     }
 }
@@ -48,6 +46,7 @@ The Country entity contains next fields:
 | name | Country name(English by default), based on ISO 3166-1 |
 | flag | Unicode emoji for represent country flag |
 | phone | Dial code, based on E.164 |
+| pattern | Phone number format, please note that it's optional and can be `null` |
 
 ## Languages & Locales
 Library is ready to use with different locales. It use information from this [repository](https://github.com/stefangabos/world_countries) for translation. 
