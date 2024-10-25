@@ -38,10 +38,12 @@ android {
 }
 
 dependencies {
+    // modules
     implementation(project(":countries"))
 
-    implementation("androidx.core:core-ktx:1.10.0")
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.9.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    // core
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.material)
 }
