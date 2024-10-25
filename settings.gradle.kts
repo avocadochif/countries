@@ -15,5 +15,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "countries"
-include ':app'
-include ':countries'
+include(":app")
+include(":countries")
