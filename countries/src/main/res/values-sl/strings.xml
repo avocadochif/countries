@@ -30,7 +30,7 @@
     <string name="country_name_bes">Bonaire, Sveti Evstahij, Saba</string>
     <string name="country_name_bih">Bosna in Hercegovina</string>
     <string name="country_name_bwa">Bocvana</string>
-    <string name="country_name_bvt">Bouvetovo otočje</string>
+    <string name="country_name_bvt">Bouvetov otok</string>
     <string name="country_name_bra">Brazilija</string>
     <string name="country_name_iot">Britanski teritorij v Indijskem oceanu</string>
     <string name="country_name_brn">Brunej</string>
@@ -46,7 +46,7 @@
     <string name="country_name_tcd">Čad</string>
     <string name="country_name_chl">Čile</string>
     <string name="country_name_chn">Ljudska republika Kitajska</string>
-    <string name="country_name_cxr">Božični otoki</string>
+    <string name="country_name_cxr">Božični otok</string>
     <string name="country_name_cck">Kokosovi otoki</string>
     <string name="country_name_col">Kolumbija</string>
     <string name="country_name_com">Komori</string>
@@ -201,7 +201,7 @@
     <string name="country_name_syc">Sejšeli</string>
     <string name="country_name_sle">Sierra Leone</string>
     <string name="country_name_sgp">Singapur</string>
-    <string name="country_name_sxm">Sveti Martin (nizozemski)</string>
+    <string name="country_name_sxm">Nizozemski Sveti Martin</string>
     <string name="country_name_svk">Slovaška</string>
     <string name="country_name_svn">Slovenija</string>
     <string name="country_name_slb">Salomonovi otoki</string>
@@ -229,7 +229,7 @@
     <string name="country_name_tun">Tunizija</string>
     <string name="country_name_tur">Turčija</string>
     <string name="country_name_tkm">Turkmenistan</string>
-    <string name="country_name_tca">otočji Turks in Caicos</string>
+    <string name="country_name_tca">Otoki Turks in Caicos</string>
     <string name="country_name_tuv">Tuvalu</string>
     <string name="country_name_uga">Uganda</string>
     <string name="country_name_ukr">Ukrajina</string>

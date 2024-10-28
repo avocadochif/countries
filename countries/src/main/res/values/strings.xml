@@ -26,7 +26,7 @@
     <string name="country_name_ben">Benin</string>
     <string name="country_name_bmu">Bermuda</string>
     <string name="country_name_btn">Bhutan</string>
-    <string name="country_name_bol">Bolivia (Plurinational State of)</string>
+    <string name="country_name_bol">Bolivia, Plurinational State of</string>
     <string name="country_name_bes">Bonaire, Sint Eustatius and Saba</string>
     <string name="country_name_bih">Bosnia and Herzegovina</string>
     <string name="country_name_bwa">Botswana</string>
@@ -105,7 +105,7 @@
     <string name="country_name_isl">Iceland</string>
     <string name="country_name_ind">India</string>
     <string name="country_name_idn">Indonesia</string>
-    <string name="country_name_irn">Iran (Islamic Republic of)</string>
+    <string name="country_name_irn">Iran, Islamic Republic of</string>
     <string name="country_name_irq">Iraq</string>
     <string name="country_name_irl">Ireland</string>
     <string name="country_name_imn">Isle of Man</string>
@@ -118,7 +118,7 @@
     <string name="country_name_kaz">Kazakhstan</string>
     <string name="country_name_ken">Kenya</string>
     <string name="country_name_kir">Kiribati</string>
-    <string name="country_name_prk">Korea (Democratic People\'s Republic of)</string>
+    <string name="country_name_prk">Korea, Democratic People\'s Republic of</string>
     <string name="country_name_kor">Korea, Republic of</string>
     <string name="country_name_kwt">Kuwait</string>
     <string name="country_name_kgz">Kyrgyzstan</string>
@@ -144,7 +144,7 @@
     <string name="country_name_mus">Mauritius</string>
     <string name="country_name_myt">Mayotte</string>
     <string name="country_name_mex">Mexico</string>
-    <string name="country_name_fsm">Micronesia (Federated States of)</string>
+    <string name="country_name_fsm">Micronesia, Federated States of</string>
     <string name="country_name_mda">Moldova, Republic of</string>
     <string name="country_name_mco">Monaco</string>
     <string name="country_name_mng">Mongolia</string>
@@ -240,7 +240,7 @@
     <string name="country_name_ury">Uruguay</string>
     <string name="country_name_uzb">Uzbekistan</string>
     <string name="country_name_vut">Vanuatu</string>
-    <string name="country_name_ven">Venezuela (Bolivarian Republic of)</string>
+    <string name="country_name_ven">Venezuela, Bolivarian Republic of</string>
     <string name="country_name_vnm">Viet Nam</string>
     <string name="country_name_vgb">Virgin Islands (British)</string>
     <string name="country_name_vir">Virgin Islands (U.S.)</string>
