@@ -189,7 +189,7 @@ object CountriesProvider {
         ),
         Country(
             id = "BOL",
-            name = "Bolivia (Plurinational State of)",
+            name = "Bolivia, Plurinational State of",
             flag = "\ud83c\udde7\ud83c\uddf4",
             phone = "+591",
             pattern = "X XXX XXXX"
@@ -742,7 +742,7 @@ object CountriesProvider {
         ),
         Country(
             id = "IRN",
-            name = "Iran (Islamic Republic of)",
+            name = "Iran, Islamic Republic of",
             flag = "\ud83c\uddee\ud83c\uddf7",
             phone = "+98",
             pattern = "XXX XXX XXXX"
@@ -833,7 +833,7 @@ object CountriesProvider {
         ),
         Country(
             id = "PRK",
-            name = "Korea (Democratic People's Republic of)",
+            name = "Korea, Democratic People\\'s Republic of",
             flag = "\ud83c\uddf0\ud83c\uddf5",
             phone = "+850",
             pattern = null
@@ -1015,7 +1015,7 @@ object CountriesProvider {
         ),
         Country(
             id = "FSM",
-            name = "Micronesia (Federated States of)",
+            name = "Micronesia, Federated States of",
             flag = "\ud83c\uddeb\ud83c\uddf2",
             phone = "+691",
             pattern = null
@@ -1687,7 +1687,7 @@ object CountriesProvider {
         ),
         Country(
             id = "VEN",
-            name = "Venezuela (Bolivarian Republic of)",
+            name = "Venezuela, Bolivarian Republic of",
             flag = "\ud83c\uddfb\ud83c\uddea",
             phone = "+58",
             pattern = "XXX XXX XXXX"
