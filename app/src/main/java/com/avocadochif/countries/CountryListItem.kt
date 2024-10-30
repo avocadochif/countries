@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun CountryListItem(
-    country: CountryUiData,
+    country: CountryListItemUiData,
     modifier: Modifier = Modifier,
 ) {
     Row(
@@ -66,7 +66,7 @@ private fun CountryListItemPreview() {
         .getCountries()
         .first()
         .let { country ->
-            CountryUiData(
+            CountryListItemUiData(
                 flag = country.flag,
                 name = country.name,
                 phone = country.phone

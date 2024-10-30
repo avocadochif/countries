@@ -1,6 +1,6 @@
 package com.avocadochif.countries
 
-data class CountryUiData(
+data class CountryListItemUiData(
     val flag: String,
     val name: String,
     val phone: String

@@ -11,27 +11,19 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-
-val countries = CountriesProvider
-    .getCountries()
-    .map { country ->
-        CountryUiData(
-            flag = country.flag,
-            name = country.name,
-            phone = country.phone
-        )
-    }
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.lifecycle.viewmodel.compose.viewModel
 
 @Composable
 fun CountryListScreen(
     modifier: Modifier = Modifier,
+    viewModel: CountryListViewModel = viewModel()
 ) {
-    val countries = remember { countries }
+    val uiState = viewModel.uiState.collectAsStateWithLifecycle().value ?: return
 
     LazyColumn(
         modifier = modifier,
@@ -43,7 +35,7 @@ fun CountryListScreen(
         verticalArrangement = Arrangement.spacedBy(space = 8.dp),
         content = {
             items(
-                items = countries,
+                items = uiState.countries,
                 itemContent = { country ->
                     CountryListItem(
                         country = country,
