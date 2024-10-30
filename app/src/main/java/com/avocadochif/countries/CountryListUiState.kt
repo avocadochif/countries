@@ -1,5 +1,7 @@
 package com.avocadochif.countries
 
+import kotlinx.collections.immutable.ImmutableList
+
 data class CountryListUiState(
-    val countries: List<CountryListItemUiData>
+    val countries: ImmutableList<CountryListItemUiData>
 )

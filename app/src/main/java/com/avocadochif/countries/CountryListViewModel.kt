@@ -1,6 +1,7 @@
 package com.avocadochif.countries
 
 import androidx.lifecycle.ViewModel
+import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -20,7 +21,7 @@ class CountryListViewModel : ViewModel() {
                         name = country.name,
                         phone = country.phone
                     )
-                }
+                }.toImmutableList()
         )
     }
 
