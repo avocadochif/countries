@@ -2,9 +2,13 @@ package com.avocadochif.countries
 
 import com.avocadochif.countries.entity.Country
 
+/**
+ * Provides country information, including name, flag, dial code, and phone number patterns.
+ * This object serves as a centralized source for accessing details about different countries.
+ */
 object CountriesProvider {
 
-    fun getCountries() = listOf(
+    private val countries = listOf(
         Country(
             id = "AFG",
             name = "Afghanistan",
@@ -1749,5 +1753,26 @@ object CountriesProvider {
             pattern = "XX XXX XXXX"
         )
     )
+
+    /**
+     * Retrieves a list of all available countries.
+     *
+     * @return List of [Country] objects containing details of each country.
+     */
+    fun getCountries(): List<Country> {
+        return countries
+    }
+
+    /**
+     * Retrieves the details of a specific country by its ISO 3166-1 alpha-3 country code.
+     *
+     * @param id The ISO 3166-1 alpha-3 code of the country to retrieve.
+     * @return The [Country] object if found, or `null` if the country is not available.
+     */
+    fun getCountryById(id: String): Country? {
+        return countries.firstOrNull { country ->
+            country.id == id
+        }
+    }
 
 }
