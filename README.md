@@ -2,9 +2,11 @@
 
 [![](https://jitpack.io/v/avocadochif/countries.svg)](https://jitpack.io/#avocadochif/countries)
 
-##### Android library provides essential country information such as country code, dial code, country name, and flag emoji.
+**Countries** is an Android library that provides essential information about countries, including country code, dial code, country name, and flag emoji. It supports multiple locales for internationalized country names.
 
-## How to integrate into your app?
+## Installation
+
+To add the **Countries** library to your Android project:
 
 1. Add the JitPack repository to your `settings.gradle` file:
 
@@ -17,40 +19,47 @@ dependencyResolutionManagement {
 }
 ```
 
-2. Add implementation of library to your app `build.gradle` file:
+2. Include the library dependency in your `build.gradle` file:
 
 ```
 implementation 'com.github.avocadochif:countries:x.x.x'
 ```
 
+Replace `x.x.x` with the latest version. Check [here](https://github.com/avocadochif/countries/releases) for the latest release.
+
 ## Usage
 
-1. Use `CountriesProvider` for get list with countries:
+### Get List of Countries
+
+Use `CountriesProvider` to retrieve the list of available countries:
 
 ```kotlin
 CountriesProvider.getCountries()
 ```
 
-2. How to get country name with translation (please note, this extension return `@StringRes`):
+### Get Localized Country Name
+
+To get a localized country name, use the `getCountryNameStringResId()` extension (note: it returns a `@StringRes`):
 
 ```kotlin
 country.getCountryNameStringResId(<use_context_here>)
 ```
 
 ## Country fields
-The Country entity contains next fields:
+
+Each Country entity includes the following fields:
 
 | Field name | Description |
 | :---------- | :---------- |
-| id | County id, based on ISO 3166-1 alpha3 |
-| name | Country name(English by default), based on ISO 3166-1 |
-| flag | Unicode emoji for represent country flag |
-| phone | Dial code, based on E.164 |
-| pattern | Phone number format, please note that it's optional and can be `null` |
+| id | Country ID based on ISO 3166-1 alpha-3 code. |
+| name | Country name (in English by default), based on ISO 3166-1. |
+| flag | Unicode emoji representing the country's flag. |
+| phone | Dial code, based on E.164. |
+| pattern | Optional phone number format pattern (can be `null`). |
 
-## Languages & Locales
-Library is ready to use with different locales. It use information from this [repository](https://github.com/stefangabos/world_countries) for translation. 
-Please note, for support different locales you need to use `getCountryNameStringResId()` extension. We support next `locales` and `languages`:
+## Supported Languages & Locales
+
+**Countries** supports multiple locales for country name translations. Translations are sourced from this [repository](https://github.com/stefangabos/world_countries). To access localized country names, use the `getCountryNameStringResId()` extension. We support next `locales` and `languages`:
 
 | Locale | Language |
 | :---------- | :---------- |
@@ -92,7 +101,7 @@ Please note, for support different locales you need to use `getCountryNameString
 
 ```MIT License
 
-Copyright (c) 2023 Stepan Revytskyi
+Copyright (c) 2024 Stepan Revytskyi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
