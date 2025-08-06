@@ -1,6 +1,8 @@
 # Countries
 
 [![](https://jitpack.io/v/avocadochif/countries.svg)](https://jitpack.io/#avocadochif/countries)
+![Weekly download statistics](https://jitpack.io/v/avocadochif/countries/week.svg)
+![Monthly download statistics](https://jitpack.io/v/avocadochif/countries/month.svg)
 
 **Countries** is an Android library that provides essential information about countries, including country code, dial code, country name, and flag emoji. It supports multiple locales for internationalized country names.
 
@@ -101,7 +103,7 @@ Each Country entity includes the following fields:
 
 ```MIT License
 
-Copyright (c) 2024 Stepan Revytskyi
+Copyright (c) 2025 Stepan Revytskyi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
